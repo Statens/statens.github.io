@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'MachineStd';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Machine'), url('../fonts/MachineStd.otf') format('opentype');
+  }
+/*   
+  body {
+    font-size: 48px;
+  } */
+
+body {
+    background-color: #C62B29;
+}
+
+/*body, div.jumbotron {
+    background-color: #aaa;
+    background-color: #999;
+}*/
+
+div.jumbotron
+{
+    background-color: #FCB813;
+    font-family: 'MachineStd', serif;
+    margin-bottom: 0;
+    padding: 1rem;
+}
+
+div.jumbotron h1 {
+        color: #A21D20;
+}
+    div.jumbotron h2 {
+        color: #333434;
+    }
+
+h1, h2, h3, h4 {
+    text-align: center;
+    margin-bottom: .5rem;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #FCB813;
+    }
+
+    div.jumbotron {
+        background-color: #C62B29;
+        font-family: 'MachineStd', serif;
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+
+    div.jumbotron h1 {
+        color: #FCB813;
+    }
+    div.jumbotron h2 {
+        color: #fff;
+    }
+}
