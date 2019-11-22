@@ -18,9 +18,8 @@ body {
     background-color: #999;
 }*/
 
-div.jumbotron
-{
-    background-color: #FCB813;
+div.jumbotron {
+    background-color: #FAB043;
     font-family: 'MachineStd', serif;
     margin-bottom: 0;
     padding: 1rem;
@@ -55,7 +54,7 @@ body.h1, body.h2, body.h3, body.h4 {
 
 @media screen and (max-width: 480px) {
     body {
-        background-color: #FCB813;
+        background-color: #FAB043;
     }
 
     div.jumbotron {
