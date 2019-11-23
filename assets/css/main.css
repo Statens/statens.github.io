@@ -4,13 +4,22 @@
     font-weight: normal;
     src: local('Machine'), url('../fonts/MachineStd.otf') format('opentype');
   }
+
+  html {
+    min-height: 100%;
+    background:
+        radial-gradient(#999, #000),
+        url("//lorempixel.com/500/500");
+    background-size: cover;
+}
 /*   
   body {
     font-size: 48px;
   } */
 
 body {
-    background-color: #C62B29;
+    background: transparent;
+    /* background-color: #C62B29; */
 }
 
 /*body, div.jumbotron {
@@ -28,6 +37,11 @@ div.jumbotron {
 div.jumbotron h1 {
     color: #A21D20;
     text-shadow: none;
+}
+div.jumbotron h1 small {
+    color: #333434;
+    text-shadow: none;
+    font-size: 1em;
 }
 div.jumbotron h2 {
     color: #333434;
