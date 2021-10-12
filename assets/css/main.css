@@ -8,7 +8,7 @@
   html {
     min-height: 100%;
     background:
-        radial-gradient(#999, #000),
+        radial-gradient(#8A8879, #252523),
         url("//lorempixel.com/500/500");
     background-size: cover;
 }
@@ -22,30 +22,56 @@ body {
     /* background-color: #C62B29; */
 }
 
+a, a:hover {
+    color: #eee;
+    text-decoration: none;
+    text-underline-position:auto;
+    border-bottom: #993F35 solid 0.1em;
+    /*
+    FEDC55
+    #993F35
+    */
+}
+
 /*body, div.jumbotron {
     background-color: #aaa;
     background-color: #999;
 }*/
 
 div.jumbotron {
-    background-color: #FAB043;
+    background-color: #FEDC55;
+    background-color: #242422;
+
+    background:
+        radial-gradient(#474842, #242422),
+        url("//lorempixel.com/500/500");
+    background-size: cover;
+    
     font-family: 'MachineStd', serif;
     margin-bottom: 0;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 div.jumbotron h1 {
     color: #A21D20;
+
+    color: #F3EAC9;
+    /* #F3EAC9 */
     text-shadow: none;
 }
 div.jumbotron h1 small {
-    color: #333434;
+    /* color: #333434; */
+    color: #B4A443;
+    /* color: #993F35; */
+    
     text-shadow: none;
+    text-shadow: 0em 0em 0.2em #242422;
     font-size: 1em;
 }
 div.jumbotron h2 {
     color: #333434;
     text-shadow: none;
+    text-shadow: 0em 0em 0.2em #242422;
 }
 
 h1, h2, h3, h4 {
