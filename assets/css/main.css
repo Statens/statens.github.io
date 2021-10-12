@@ -5,13 +5,13 @@
     src: local('Machine'), url('../fonts/MachineStd.otf') format('opentype');
   }
 
-  html {
+  /*html {
     min-height: 100%;
     background:
         radial-gradient(#8A8879, #252523),
         url("//lorempixel.com/500/500");
     background-size: cover;
-}
+}*/
 /*   
   body {
     font-size: 48px;
@@ -19,7 +19,7 @@
 
 body {
     background: transparent;
-    /* background-color: #C62B29; */
+    background-color: #C62B29; 
 }
 
 a, a:hover {
@@ -80,7 +80,7 @@ h1, h2, h3, h4 {
     font-weight: 100;
     color: #fff;
     text-align: center;
-    text-shadow: 0em 0em 0.2em #000;
+    text-shadow: 0em 0em 0.1em #000;
 }
 
 body.h1, body.h2, body.h3, body.h4 {
@@ -110,4 +110,25 @@ body.h1, body.h2, body.h3, body.h4 {
     div.jumbotron h2 {
         color: #fff;
     }
+}
+
+@media screen and (max-width: 6480px) {
+    body {
+        background-color: #FAB043;
+    }
+
+    div.jumbotron {
+        background-color: #C62B29;
+        font-family: 'MachineStd', serif;
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+
+        div.jumbotron h1 {
+            color: #FCB813;
+        }
+
+        div.jumbotron h2 {
+            color: #fff;
+        }
 }
